@@ -6,4 +6,6 @@ tasks:
     dnf:
       name: tree
       state: latest
+  - name: Subir servicio de hapache
+    state: started
 
